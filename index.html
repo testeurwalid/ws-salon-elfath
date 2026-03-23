@@ -1,0 +1,314 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="WebStudio SiteGen 8.2.0"><title>salon elfath — coiffure à Berrechid</title><meta name="description" content="Un salon pensé pour aller vite, bien, et sans stress. On vous conseille, puis on exécute proprement."><meta property="og:title" content="salon elfath — coiffure à Berrechid"><meta property="og:description" content="Un salon pensé pour aller vite, bien, et sans stress. On vous conseille, puis on exécute proprement."><meta property="og:image" content="https://lh3.googleusercontent.com/a-/ALV-UjWjcVyhzEI0Ht-y5zb7yQnmeyGzJ2hc5HcbRQZbXXRf-0pmJWrdnQ=w1200-h800-p-rp-mo-ba5-br100"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><style>@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap");</style><style>:root{--bg:#070707;--fg:#F5F0EE;--mut:rgba(245,240,238,0.45);--line:rgba(150,64,81,0.18);--acc:#964051;--acc2:#732B39;--card:rgba(255,255,255,0.04);--fh:'Josefin Sans', ui-serif, Georgia, serif;--fb:'Nunito Sans', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;--r:22px;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--fb);-webkit-font-smoothing:antialiased}
+
+header{position:fixed;inset:0 0 auto 0;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 6vw;z-index:60;transition:all .25s}
+header.sc{background:rgba(255,255,255,.55);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.logo{font-family:var(--fh);text-decoration:none;font-size:18px}
+.burger{display:none;gap:6px;flex-direction:column;background:transparent;border:0;padding:8px;cursor:pointer}
+.burger span{width:22px;height:2px;background:var(--fg);border-radius:2px;opacity:.8}
+.nav{display:flex;align-items:center;gap:12px}
+.nav a{text-decoration:none;font-size:12px;color:var(--mut);padding:10px 10px;border-radius:999px;transition:all .2s}
+.nav a:hover{color:var(--fg);background:rgba(0,0,0,.04)}
+.nav .navcta{background:var(--acc);color:#fff;font-weight:800}
+
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:118px 6vw 56px;position:relative;overflow:hidden}
+.blob{position:absolute;inset:auto -180px -180px auto;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(210,164,106,.42), transparent 60%), radial-gradient(circle at 60% 60%, rgba(31,109,107,.32), transparent 55%);filter:blur(2px);opacity:.85}
+.himg{border-radius:26px;border:1px solid var(--line);overflow:hidden;box-shadow:0 28px 90px rgba(0,0,0,.12);background:#ddd;min-height:440px}
+.himg img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+.hcopy{max-width:58ch}
+.k{letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--mut)}
+.h1{font-family:var(--fh);font-size:clamp(42px,5vw,70px);line-height:1.02;margin:14px 0 14px}
+.sub{color:var(--mut);line-height:1.85;font-size:15px}
+
+.book{background:rgba(255,255,255,.72);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:26px;padding:18px;box-shadow:0 24px 80px rgba(0,0,0,.10)}
+.book h3{margin:0 0 12px;font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg)}
+.book label{display:block;font-size:11px;color:var(--mut);margin-top:10px}
+.book input,.book select{width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);background:#fff;font:inherit;margin-top:6px}
+.book button{margin-top:14px;width:100%;border:0;background:var(--acc);color:#fff;padding:12px 14px;border-radius:14px;font-weight:800;cursor:pointer}
+.book p{margin:10px 0 0;font-size:12px;color:var(--mut);line-height:1.6}
+
+section{padding:78px 6vw;border-top:1px solid var(--line)}
+.wrap{max-width:1240px;margin:0 auto}
+.h2{font-family:var(--fh);font-size:clamp(26px,3vw,44px);margin:0 0 10px}
+.p{color:var(--mut);line-height:1.85;max-width:72ch}
+
+.rit{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.rit .r{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px;position:relative;overflow:hidden}
+.rit .r b{display:block;font-size:14px;margin-bottom:8px}
+.rit .r p{margin:0;color:var(--mut);line-height:1.8;font-size:13px}
+.rit .r .m{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{background:rgba(31,109,107,.08);border:1px solid rgba(31,109,107,.18);color:var(--fg);padding:7px 10px;border-radius:999px;font-size:12px}
+
+.tabs{margin-top:22px}
+.tabbar{display:flex;gap:10px;flex-wrap:wrap}
+.tabbar button{border:1px solid var(--line);background:rgba(255,255,255,.68);padding:10px 12px;border-radius:999px;cursor:pointer;font:inherit;color:var(--mut)}
+.tabbar button.on{background:var(--acc);color:#fff;border-color:transparent}
+.pane{display:none;margin-top:16px}
+.pane.on{display:block}
+
+.gal{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.gal a{grid-column:span 3;border-radius:18px;overflow:hidden;border:1px solid var(--line);cursor:pointer}
+.gal img{width:100%;height:180px;object-fit:cover;display:block;transform:scale(1.02);transition:transform .35s}
+.gal a:hover img{transform:scale(1.08)}
+
+.team{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:22px}
+.person{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.person b{display:block}
+.person span{color:var(--mut);font-size:12px}
+
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.plan{background:rgba(255,255,255,.78);border:1px solid var(--line);border-radius:22px;padding:18px}
+.plan h3{margin:0}
+.plan .price{font-family:var(--fh);font-size:34px;margin-top:8px}
+.plan ul{margin:12px 0 0;padding-left:18px;color:var(--mut);line-height:1.8}
+
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.t{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.t blockquote{margin:0;line-height:1.8;color:var(--fg);font-size:13px}
+.t figcaption{margin-top:10px;color:var(--mut);font-size:12px}
+
+.faqs{display:grid;gap:10px;margin-top:14px}
+.faq{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:transparent;border:0;color:var(--fg);padding:14px 16px;cursor:pointer;font-weight:800}
+.faq-q i{font-style:normal;color:var(--mut)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease}
+.faq-a>div{padding:0 16px 16px;color:var(--mut);line-height:1.8;font-size:13px}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.box{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:18px}
+.box a{color:var(--fg)}
+.btn{display:inline-block;margin-top:12px;background:var(--acc);color:#fff;text-decoration:none;padding:12px 14px;border-radius:14px;font-weight:900}
+
+/* ---- Layout variants (SPA) ---- */
+.hero.v1{grid-template-columns:1fr;align-items:stretch;padding:0}
+.hero.v1 .blob{display:none}
+.hero.v1 .hcover{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.02)}
+.hero.v1 .hcover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.60))}
+.hero.v1 .hinner{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:end;padding:128px 6vw 64px}
+.hero.v1 .k,.hero.v1 .sub{color:rgba(255,255,255,.86)}
+.hero.v1 .h1{color:#fff}
+.hero.v1 .book{background:rgba(255,255,255,.92)}
+
+.hero.v2{grid-template-columns:1fr;gap:18px}
+.hero.v2 .hcopy{max-width:80ch}
+.hero.v2 .hstack{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.hero.v2 .hcard{border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.70)}
+.hero.v2 .hcard b{display:block}
+.hero.v2 .hcard span{display:block;color:var(--mut);margin-top:6px;line-height:1.7;font-size:13px}
+.hero.v2 .mosaic{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.hero.v2 .mosaic .m{grid-column:span 4;border-radius:22px;overflow:hidden;border:1px solid var(--line);min-height:220px;background:#ddd}
+.hero.v2 .mosaic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+
+.timeline{display:grid;gap:12px;margin-top:22px}
+.titem{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:14px}
+.titem .n{width:34px;height:34px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(31,109,107,.12);border:1px solid rgba(31,109,107,.18);font-weight:950}
+.titem b{display:block}
+.titem p{margin:6px 0 0;color:var(--mut);line-height:1.8;font-size:13px}
+.titem .meta{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+
+.priceTable{display:grid;gap:10px;margin-top:18px}
+.priceRow{display:grid;grid-template-columns:1.2fr .8fr 1fr;gap:10px;align-items:center;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:18px;padding:12px 14px}
+.priceRow b{font-size:13px}
+.priceRow span{color:var(--mut);font-size:12px;line-height:1.6}
+.priceRow i{font-style:normal;font-weight:950;text-align:right}
+
+[data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+[data-reveal].in{opacity:1;transform:none}
+
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;z-index:200}
+#lb.on{display:flex}
+#lb img{max-width:92vw;max-height:86vh;border-radius:18px;border:1px solid rgba(255,255,255,.25)}
+#lb button{position:absolute;top:18px;right:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:10px 12px;cursor:pointer}
+
+@media (max-width: 980px){
+  .hero{grid-template-columns:1fr;}
+  .himg{min-height:320px}
+  .pricing{grid-template-columns:1fr;}
+  .tgrid{grid-template-columns:1fr;}
+  .contact{grid-template-columns:1fr;}
+  .rit .r{grid-column:span 6}
+  .gal a{grid-column:span 4}
+  .person{grid-column:span 6}
+}
+@media (max-width: 720px){
+  .burger{display:flex}
+  .nav{position:fixed;inset:70px 12px auto 12px;display:none;flex-direction:column;align-items:stretch;background:rgba(255,255,255,.80);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;padding:12px}
+  .nav.open{display:flex}
+}
+
+[data-reveal]{opacity:1;transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+.js [data-reveal].in{opacity:1;transform:none}
+/* ---- Layout variants (visual diversity) ---- */
+:root{
+  --section-pad: 96px;
+  --btn-r: 14px;
+  --btn-pad-y: 12px;
+  --btn-pad-x: 22px;
+  --card-shadow: 0 18px 50px rgba(0,0,0,.18);
+}
+body.layout-v0{ --section-pad: 88px; --btn-r: 12px; --card-shadow: 0 16px 44px rgba(0,0,0,.18); }
+body.layout-v1{ --section-pad: 110px; --btn-r: 999px; --btn-pad-x: 28px; --card-shadow: 0 22px 70px rgba(0,0,0,.22); }
+body.layout-v2{ --section-pad: 80px; --btn-r: 10px; --card-shadow: 0 12px 30px rgba(0,0,0,.14); }
+body.layout-v3{ --section-pad: 100px; --btn-r: 18px; --card-shadow: 0 20px 60px rgba(0,0,0,.20); }
+body.layout-v4{ --section-pad: 120px; --btn-r: 6px;  --card-shadow: 0 14px 40px rgba(0,0,0,.16); }
+section{ padding-top: var(--section-pad); padding-bottom: var(--section-pad); }
+.btn, .btn-main, .btn-hero, .btn-primary, .bp, .bo{
+  border-radius: var(--btn-r)!important;
+  padding: var(--btn-pad-y) var(--btn-pad-x)!important;
+}
+.card, .tile, .feature, .prop-card, .room-card, .glass, .panel{
+  box-shadow: var(--card-shadow);
+  border-radius: calc(var(--r) + 2px);
+}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "salon elfath", "address": {"@type": "PostalAddress", "streetAddress": "7C7G+QWJ, Rue Ibn hazm, Berrechid", "addressLocality": "Berrechid", "addressCountry": "MA"}, "telephone": "+212601703726997", "openingHours": "Lun–Sam 9h–20h"}</script></head><body id="top"><header><a class="logo" href="#top">salon elfath</a><button class="burger" data-burger aria-label="Menu" aria-expanded="false"><span></span><span></span></button><nav class="nav" data-nav><a href="#prestations">Services</a><a href="#contact">Contact</a><a href="#tarifs">Tarifs</a><a href="#avis">Avis</a><a href="#faq">FAQ</a><a class="navcta" href="#contact">Contact</a></nav></header><section class="hero v1"><div class="hcover" style="background-image:url('https://lh3.googleusercontent.com/a-/ALV-UjWjcVyhzEI0Ht-y5zb7yQnmeyGzJ2hc5HcbRQZbXXRf-0pmJWrdnQ=w1200-h800-p-rp-mo-ba5-br100');" data-bg="https://lh3.googleusercontent.com/a-/ALV-UjWjcVyhzEI0Ht-y5zb7yQnmeyGzJ2hc5HcbRQZbXXRf-0pmJWrdnQ=w1200-h800-p-rp-mo-ba5-br100|https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E"></div><div class="hinner"><div class="hcopy"><div class="k">coiffure · Berrechid</div><h1 class="h1" data-reveal>Beauté &amp; confiance à Berrechid</h1><p class="sub" data-reveal>Un salon pensé pour aller vite, bien, et sans stress. On vous conseille, puis on exécute proprement.</p><div class="punch" data-reveal><a class="btn" href="#contact">Prendre RDV</a><a class="btn" href="https://wa.me/212601703726997?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div></div><div class="book" data-reveal><h3>Rendez-vous</h3><label>Date</label><input type="date"><label>Prestation</label><select><option>RDV</option><option>Coupe</option><option>Coloration</option><option>Hygiene</option></select><label>Nom</label><input placeholder="Votre nom"><label>Téléphone</label><input placeholder="+212…"><button type="button" onclick="location.href='#contact'">Confirmer</button><p>Confirmation rapide par téléphone/WhatsApp.</p></div></div></section><section id="prestations"><div class="wrap"><h2 class="h2">Prestations</h2><p class="p">Coupe, brushing, barbe, soins: un rendu net et une hygiène carrée. Dites-nous votre objectif, on conseille.</p><div class="timeline"><div class="titem" data-reveal><div class="n">1</div><div><b>Coupe &amp; coiffage</b><p>Conseil + coupe nette, finition propre.</p><div class="meta"><span class="chip">H/F</span><span class="chip">RDV</span></div></div></div><div class="titem" data-reveal><div class="n">2</div><div><b>Brushing</b><p>Tenue, volume, rendu clean.</p><div class="meta"><span class="chip">30-45 min</span><span class="chip">RDV</span></div></div></div><div class="titem" data-reveal><div class="n">3</div><div><b>Coloration</b><p>Couleur, retouche racines, patine.</p><div class="meta"><span class="chip">Devis</span><span class="chip">RDV</span></div></div></div><div class="titem" data-reveal><div class="n">4</div><div><b>Barbe</b><p>Contours precis, serviette chaude (selon).</p><div class="meta"><span class="chip">Barber</span><span class="chip">RDV</span></div></div></div><div class="titem" data-reveal><div class="n">5</div><div><b>Soin cheveux</b><p>Hydratation, reparation, brillance.</p><div class="meta"><span class="chip">Option</span><span class="chip">RDV</span></div></div></div><div class="titem" data-reveal><div class="n">6</div><div><b>Forfait mariage</b><p>Essai + jour J, sur reservation.</p><div class="meta"><span class="chip">RDV</span><span class="chip">RDV</span></div></div></div></div></div></section><section id="tarifs"><div class="wrap"><h2 class="h2">Tarifs</h2><p class="p">Des prix indicatifs et transparents. Le devis exact dépend de la longueur, du style, et des options.</p><div class="priceTable"><div class="priceRow" data-reveal><b>Coupe</b><span>Conseil rapide, coupe + finition.</span><i>à partir de 80 MAD</i></div><div class="priceRow" data-reveal><b>Coupe + brushing</b><span>Brushing propre, produits adaptés.</span><i>à partir de 140 MAD</i></div><div class="priceRow" data-reveal><b>Coloration</b><span>Diagnostic + nuance, soin inclus.</span><i>à partir de 260 MAD</i></div><div class="priceRow" data-reveal><b>Barbe / finitions</b><span>Contours, finitions nettes.</span><i>à partir de 60 MAD</i></div></div></div></section><section id="equipe"><div class="wrap"><h2 class="h2">L'équipe</h2><p class="p">Une équipe attentive, des gestes propres, et des finitions nettes.</p><div class="team"><div class="person" data-reveal><b>Yasmina</b><span>Coupe & brushing</span></div><div class="person" data-reveal><b>Mehdi</b><span>Barbe & finitions</span></div><div class="person" data-reveal><b>Salma</b><span>Coloration & soins</span></div></div></div></section><section id="galerie"><div class="wrap"><h2 class="h2">Galerie</h2><p class="p">Quelques photos pour se projeter. Cliquez pour agrandir.</p><div class="gal"><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjWZGdvjsbgTi02oxfGZcxDbZ4SudpvI1uK0BSlOyBcMrsNJ5-Pa=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 1" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjWZGdvjsbgTi02oxfGZcxDbZ4SudpvI1uK0BSlOyBcMrsNJ5-Pa=w1200-h800-p-rp-mo-br100" alt="salon elfath photo 1" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjXhH_aDJMMTW51hJZKR0IDtXJWHxUICKYo8xv9_1zhvewWANuE=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 2" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjXhH_aDJMMTW51hJZKR0IDtXJWHxUICKYo8xv9_1zhvewWANuE=w1200-h800-p-rp-mo-br100" alt="salon elfath photo 2" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepL3XsptFMdVeoEn73eh5-MWi6QQs-I79Pd7TsHVeP7oVtUuLfsG8-BnNfV6VOMZTpGLk-HODzSScThGvZt_IQylU-IOF3tF3jVsGMLhJDRuwgb2lRkRD0BAU0ifEfz5h-UTOBHGA=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 3" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepL3XsptFMdVeoEn73eh5-MWi6QQs-I79Pd7TsHVeP7oVtUuLfsG8-BnNfV6VOMZTpGLk-HODzSScThGvZt_IQylU-IOF3tF3jVsGMLhJDRuwgb2lRkRD0BAU0ifEfz5h-UTOBHGA=w1200-h800-p-k-no" alt="salon elfath photo 3" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4xcztDMSjmCIUxHlobvrRl9I6PhNeHECTXouwqTRZJm63yGBiiH7sWbAmisY--fuRj8waLMX-we-IKX1jrONQViZOeQotZeUTV_U2y3El4dcpPMYwBp01edOuMEWEcoOhImYP2w=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 4" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo4xcztDMSjmCIUxHlobvrRl9I6PhNeHECTXouwqTRZJm63yGBiiH7sWbAmisY--fuRj8waLMX-we-IKX1jrONQViZOeQotZeUTV_U2y3El4dcpPMYwBp01edOuMEWEcoOhImYP2w=w1200-h800-p-k-no" alt="salon elfath photo 4" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwergZ2GwXi4eM1EI_XxPIcmbBM60yCtNTp7KmYzL-PmvpXnOtFTPPACE9noAVQXTKHvOhWZf3qnRY7aLgf3wnUpfFY0Y9_9rAnLwhWcEcGGNRdeh7Pu0yoD0PmMREIKz2b17SVBW=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 5" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwergZ2GwXi4eM1EI_XxPIcmbBM60yCtNTp7KmYzL-PmvpXnOtFTPPACE9noAVQXTKHvOhWZf3qnRY7aLgf3wnUpfFY0Y9_9rAnLwhWcEcGGNRdeh7Pu0yoD0PmMREIKz2b17SVBW=w1200-h800-p-k-no" alt="salon elfath photo 5" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWd9rECUF63bOKCZuIsOtCLwnVSFA392ELxrC6Rd8LyYlwreO8TBiHJ0J71YCxR-bg36B6ZHxMeIjGr89sheov0uVTUpIKnwWxlCd0Rr3IYGvvWIDLH32KmP4d5JYq74mE2cqE=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 6" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqWd9rECUF63bOKCZuIsOtCLwnVSFA392ELxrC6Rd8LyYlwreO8TBiHJ0J71YCxR-bg36B6ZHxMeIjGr89sheov0uVTUpIKnwWxlCd0Rr3IYGvvWIDLH32KmP4d5JYq74mE2cqE=w1200-h800-p-k-no" alt="salon elfath photo 6" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerApLWLWCFZgsezXN94O4bkbayqHmJ7ARd9jzTwRM9-PoNi4Vvfh8rsK9oDROG3Xn4QWQAISPLFwyGZDrXIWHnUriy8hPJG9uzX_sIiJ04lcTnUrJuIt2cSLI40M4yu2oF3yOWyMw=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 7" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerApLWLWCFZgsezXN94O4bkbayqHmJ7ARd9jzTwRM9-PoNi4Vvfh8rsK9oDROG3Xn4QWQAISPLFwyGZDrXIWHnUriy8hPJG9uzX_sIiJ04lcTnUrJuIt2cSLI40M4yu2oF3yOWyMw=w1200-h800-p-k-no" alt="salon elfath photo 7" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://images.unsplash.com/photo-1520975682071-35a7a0b2bb5c?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" href="javascript:void(0)" aria-label="Voir photo 8" data-reveal><img src="https://images.unsplash.com/photo-1520975682071-35a7a0b2bb5c?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="salon elfath photo 8" data-fb="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#69f154%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a8f924%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#1f11f4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3Esalon%20elfath%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a></div></div></section><section id="avis"><div class="wrap"><h2 class="h2">Avis</h2><div class="tgrid"><figure class="t" data-reveal><blockquote>J&#x27;ai enfin trouvé mon salon à Berrechid.</blockquote><figcaption><b>Amina A.</b><span>Berrechid</span></figcaption></figure><figure class="t" data-reveal><blockquote>Conseil utile (forme/texture), exécution clean.</blockquote><figcaption><b>Khadija M.</b><span>Berrechid</span></figcaption></figure><figure class="t" data-reveal><blockquote>Brushing propre, bonne tenue, et accueil simple.</blockquote><figcaption><b>Rachid R.</b><span>Marrakech</span></figcaption></figure></div></div></section><section id="faq"><div class="wrap"><h2 class="h2">FAQ</h2><div class="faqs"><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Annulation / modification ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Possible selon planning. Prévenez au plus tôt, on reprogramme facilement.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Paiement ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Espèces et parfois carte selon disponibilité. On confirme au moment du RDV.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Hygiène ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Matériel et postes désinfectés entre chaque client. Serviettes propres.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Faut-il prendre RDV ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui. RDV par téléphone/WhatsApp. On vous propose un créneau selon la charge.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Tarifs ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Des prix indicatifs sont affichés. Le prix exact dépend de la longueur, du style et des options.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Coloration / lissage ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>On fait un diagnostic rapide (couleur, historique, objectif) puis on vous annonce le plan + le budget.</div></div></div></div></div></section><section id="contact"><div class="wrap"><h2 class="h2">Contact &amp; rendez-vous</h2><div class="contact"><div class="box" data-reveal><b>salon elfath</b><div style="margin-top:6px;color:var(--mut);line-height:1.8">7C7G+QWJ, Rue Ibn hazm, Berrechid<br>Berrechid</div><a class="btn" href="https://wa.me/212601703726997?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div><div class="box" data-reveal><div><b>Téléphone</b><div style="color:var(--mut)">+212601703726997</div></div><div style="margin-top:10px"><a href="https://www.google.com/maps/search/7C7G+QWJ,+Rue+Ibn+hazm,+Berrechid" target="_blank" rel="noopener">Itinéraire Google Maps</a></div></div></div></div></section><footer style="padding:34px 6vw;color:var(--mut);border-top:1px solid var(--line)"><div class="wrap">© 2026 salon elfath · Berrechid</div></footer><div id="lb" aria-hidden="true"><button type="button" aria-label="Fermer">Fermer</button><img alt="Agrandissement"></div><script>
+(function(){
+  try{
+    // Only enable JS-scoped animations if this script runs correctly.
+    // If anything throws later, we remove the class so the page stays readable.
+    document.documentElement.classList.add('js');
+
+    const q = (s,el=document)=>el.querySelector(s);
+    const qa = (s,el=document)=>Array.from(el.querySelectorAll(s));
+
+    // Layout fingerprint (per-business visual variation without breaking templates)
+    try{
+      const title = document.title || '';
+      const meta = q('meta[name="description"]');
+      const desc = meta && meta.content ? meta.content : '';
+      const seed = (title + '|' + desc).slice(0, 300);
+      let h = 0;
+      for(let i=0;i<seed.length;i++){ h = ((h<<5)-h) + seed.charCodeAt(i); h |= 0; }
+      const v = Math.abs(h) % 5;
+      const cls = 'layout-v' + v;
+      if(document.body){
+        document.body.classList.add(cls);
+        document.body.dataset.layout = cls;
+      }
+    }catch(_e){}
+
+    // Mobile nav
+    const burger = q('[data-burger]');
+    const nav = q('[data-nav]');
+    if(burger && nav){
+      burger.addEventListener('click', ()=>{
+        nav.classList.toggle('open');
+        burger.setAttribute('aria-expanded', nav.classList.contains('open') ? 'true':'false');
+      });
+      qa('a[href^="#"]', nav).forEach(a=>a.addEventListener('click', ()=>{
+        nav.classList.remove('open');
+        burger.setAttribute('aria-expanded','false');
+      }));
+    }
+
+    // Reveal on scroll (safe fallback if IntersectionObserver isn't available)
+    const reveals = qa('[data-reveal]');
+    if(reveals.length){
+      if('IntersectionObserver' in window){
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+        }, {threshold: 0.12});
+        reveals.forEach(el=>io.observe(el));
+      }else{
+        reveals.forEach(el=>el.classList.add('in'));
+      }
+    }
+
+    // Accordions
+    qa('[data-acc]').forEach(acc=>{
+      acc.addEventListener('click', ()=>{
+        const item = acc.closest('[data-acc-item]');
+        const opened = item.classList.toggle('open');
+        const panel = q('[data-acc-panel]', item);
+        if(panel){ panel.style.maxHeight = opened ? panel.scrollHeight+'px' : '0px'; }
+      });
+    });
+
+    // Tabs
+    qa('[data-tabs]').forEach(root=>{
+      const btns = qa('[data-tab]', root);
+      const panes = qa('[data-pane]', root);
+      const activate = (id)=>{
+        btns.forEach(b=>b.classList.toggle('on', b.getAttribute('data-tab')===id));
+        panes.forEach(p=>p.classList.toggle('on', p.getAttribute('data-pane')===id));
+      };
+      btns.forEach(b=>b.addEventListener('click', ()=>activate(b.getAttribute('data-tab'))));
+      if(btns[0]) activate(btns[0].getAttribute('data-tab'));
+    });
+
+    // Lightbox
+    const lb = q('#lb');
+    const lbImg = q('#lb img');
+    const lbClose = q('#lb button');
+    if(lb && lbImg){
+      qa('[data-lb]').forEach(el=>{
+        el.addEventListener('click', ()=>{
+          const im = el.querySelector('img');
+          const src = (im && (im.currentSrc || im.src)) || el.getAttribute('data-lb');
+          if(!src) return;
+          lbImg.src = src;
+          lb.classList.add('on');
+        });
+      });
+      const close = ()=>{ lb.classList.remove('on'); lbImg.src=''; };
+      if(lbClose) lbClose.addEventListener('click', close);
+      lb.addEventListener('click', (e)=>{ if(e.target===lb) close(); });
+      document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') close(); });
+    }
+
+    // Image fallback (when a remote image is blocked/expired)
+    // Supports multiple fallbacks via: data-fb="url1|url2"
+    qa('img[data-fb]').forEach(img=>{
+      const raw = (img.getAttribute('data-fb')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      img.addEventListener('error', ()=>{
+        let i = parseInt(img.getAttribute('data-fbi')||'0', 10);
+        while(i < list.length && (!list[i] || list[i] === img.getAttribute('src'))){ i++; }
+        if(i >= list.length) return;
+        img.setAttribute('data-fbi', String(i+1));
+        img.src = list[i];
+      });
+    });
+
+    // Background image fallback (hero/media blocks)
+    // Usage: <div class="hbg" data-bg="url1|url2|..."></div>
+    // We probe URLs sequentially with an Image() to detect failures, then set backgroundImage.
+    qa('[data-bg]').forEach(el=>{
+      const raw = (el.getAttribute('data-bg')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      let idx = 0;
+      const setBg = (u)=>{
+        const safe = String(u||'').replace(/['"]/g, (m)=> m==="'" ? "%27" : "%22");
+        el.style.backgroundImage = "url('" + safe + "')";
+      };
+      // Paint something immediately; if it fails, the probe will replace it.
+      try{ if(!el.style.backgroundImage) setBg(list[0]); }catch(e){}
+      const probe = ()=>{
+        if(idx >= list.length) return;
+        const u = list[idx++];
+        if(!u) return probe();
+        const img = new Image();
+        img.onload = ()=>{ try{ setBg(u); }catch(e){} };
+        img.onerror = ()=>{ probe(); };
+        img.src = u;
+      };
+      probe();
+    });
+
+    // Header shadow on scroll
+    const header = q('header');
+    if(header){
+      const onScroll = ()=>header.classList.toggle('sc', window.scrollY>8);
+      window.addEventListener('scroll', onScroll, {passive:true});
+      onScroll();
+    }
+  }catch(e){
+    try{ document.documentElement.classList.remove('js'); }catch(_e){}
+  }
+})();
+</script></body></html>
